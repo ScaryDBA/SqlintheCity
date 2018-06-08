@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Review]
+(
+[ReviewID] [int] NOT NULL IDENTITY(1, 1),
+[Review] [text] COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Review] ADD CONSTRAINT [PK__Review__74BC79AEFEE00CD4] PRIMARY KEY CLUSTERED  ([ReviewID]) ON [PRIMARY]
+GO
